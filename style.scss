@@ -1,2 +1,70 @@
 @import "global";
 
+#header {
+  background: rgba(255, 255, 255, 0.76);
+  width: 100%;
+  height: 70px;
+  z-index: 99;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+    &--nav {
+      select {
+        margin: 20px;
+        outline: none;
+        font-weight: 500;
+        font-size: 18px;
+        border: none;
+        background: transparent;
+        color: #4F9CF9;
+      }
+    }
+
+    &--btn {
+      display: flex;
+      align-items: center;
+
+      button {
+        margin: 0 10px;
+
+        width: 200px;
+        height: 40px;
+        background: #4F9CF9;
+        border-radius: 8px;
+        border: none;
+        transition: .4s;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+
+        &:hover {
+          background: transparent;
+          color: #4F9CF9;
+          border: 2px solid #4F9CF9;
+        }
+      }
+
+      &__br {
+        button {
+          width: 80px;
+          height: 40px;
+          background: #FFE492;
+          border-radius: 8px;
+          border: none;
+
+          &:hover {
+            background: transparent;
+            color: #FFE492;
+            border: 2px solid #FFE492;
+          }
+        }
+      }
+    }
+  }
+}
