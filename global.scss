@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+//mixins
+
+@mixin btn {
+  padding: 15px 60px;
+  background: #4F9CF9;
+  border-radius: 8px;
+  color: #ffff;
+  border: none;
+  cursor: pointer;
+  transition: .4s;
+  &:hover {
+    background: transparent;
+    color: #4F9CF9;
+    border: 2px solid #4F9CF9;
+  }
+}
+
+@mixin flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+//mixins
