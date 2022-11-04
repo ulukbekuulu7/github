@@ -12,6 +12,35 @@ a {
   margin: 0 auto;
 }
 
+
+#hero .hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+#hero .hero--title h1 {
+  width: 656px;
+  height: 154px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  letter-spacing: -0.02em;
+  color: #4F9CF9;
+}
+#hero .hero--title p {
+  width: 656px;
+  height: 60px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #4F9CF9;
+  padding: 25px 0;
+}
+#hero .hero--title button {
+
 .button {
   width: 150px;
   height: 40px;
@@ -145,6 +174,7 @@ a {
 }
 #header .header--btn button {
   margin: 0 10px;
+
   width: 200px;
   height: 40px;
   background: #4F9CF9;
@@ -157,11 +187,21 @@ a {
   letter-spacing: -0.02em;
   color: #FFFFFF;
 }
+
+#hero .hero--title button:hover {
+
 #header .header--btn button:hover {
+
   background: transparent;
   color: #4F9CF9;
   border: 2px solid #4F9CF9;
 }
+
+#hero .hero--block {
+  width: 450px;
+  height: 300px;
+  background: #C4DEFD;
+
 #header .header--btn__br button {
   width: 80px;
   height: 40px;
@@ -173,6 +213,7 @@ a {
   background: transparent;
   color: #FFE492;
   border: 2px solid #FFE492;
+
 }
 
 /*# sourceMappingURL=style.css.map */
