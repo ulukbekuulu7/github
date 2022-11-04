@@ -336,7 +336,7 @@ a {
   left: 116px;
   top: 121px;
   background: #FFFFFF;
-  box-shadow: 0px 4px 50px -11px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 4px 50px -11px rgba(0, 0, 0, 0.8);
   border-radius: 10px;
 }
 #title .title--work h1 {
@@ -420,6 +420,284 @@ a {
   width: 450px;
   height: 300px;
   background: #C4DEFD;
+}
+
+#general .general {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#general .general--block h1 {
+  width: 697px;
+  height: 174px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  letter-spacing: -0.02em;
+  color: #212529;
+}
+#general .general--block p {
+  width: 697px;
+  height: 60px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #212529;
+  padding: 10px 0;
+}
+#general .general--block button {
+  width: 156px;
+  height: 50px;
+  border: none;
+  background: #4F9CF9;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+#general .general--block button:hover {
+  background: transparent;
+  color: #37A3FF;
+  border: 2px solid #37A3FF;
+}
+#general .general--title {
+  width: 506px;
+  height: 259px;
+  background: #C4DEFD;
+}
+
+#block div {
+  padding: 50px 0;
+}
+#block div h4 {
+  font-weight: 700;
+  font-size: 72px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #212529;
+}
+#block div h5 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #212529;
+}
+#block .block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+#block .block--title {
+  width: 380px;
+  height: 540px;
+  background: #FFFFFF;
+  border: 1px solid #FFE492;
+  border-radius: 10px;
+  padding: 40px 10px;
+  transition: 0.5s;
+}
+#block .block--title:hover {
+  transform: scale(1.1);
+  background: #FFFFFF;
+  border: none;
+  box-shadow: 0px 4px 50px -11px #043873;
+}
+#block .block--title h1 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #212529;
+  padding: 0 15px;
+}
+#block .block--title h2 {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: -0.02em;
+  color: #212529;
+  padding: 0 15px;
+  margin: 15px 0 15px;
+}
+#block .block--title h3 {
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: -0.02em;
+  color: #212529;
+  margin: 10px 20px;
+  padding: 10px 0 20px;
+}
+#block .block--title div {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 0 15px;
+}
+#block .block--title div p {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #212529;
+  margin: 15px 15px;
+}
+#block .block--title button {
+  width: 166px;
+  height: 51px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  border: 1px solid #FFE492;
+  transition: 0.4s;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #212529;
+  margin: 0 15px;
+}
+#block .block--title button:hover {
+  background: #37A3FF;
+  color: #FFFFFF;
+}
+#block .block--work {
+  width: 380px;
+  height: 540px;
+  background: #FFFFFF;
+  border: 1px solid #FFE492;
+  border-radius: 10px;
+  padding: 40px 10px;
+  transition: 0.5s;
+}
+#block .block--work:hover {
+  transform: scale(1.1);
+  background: #FFFFFF;
+  border: none;
+  box-shadow: 0px 4px 50px -11px #043873;
+}
+#block .block--work h1 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #043873;
+  padding: 0 15px;
+}
+#block .block--work h2 {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: -0.02em;
+  color: #043873;
+  padding: 0 15px;
+  margin: 15px 0 15px;
+}
+#block .block--work h3 {
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: -0.02em;
+  color: #043873;
+  margin: 10px 20px;
+  padding: 10px 0 20px;
+}
+#block .block--work div {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 0 15px;
+}
+#block .block--work div p {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #043873;
+  margin: 15px 15px;
+}
+#block .block--work div a {
+  color: #043873;
+}
+#block .block--work button {
+  width: 166px;
+  height: 51px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  border: 1px solid #FFE492;
+  transition: 0.4s;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #212529;
+  margin: 0 15px;
+}
+#block .block--work button:hover {
+  background: #37A3FF;
+  color: #FFFFFF;
+}
+#block .block--left {
+  width: 380px;
+  height: 540px;
+  background: #FFFFFF;
+  border: 1px solid #FFE492;
+  border-radius: 10px;
+  padding: 40px 10px;
+  transition: 0.5s;
+}
+#block .block--left:hover {
+  transform: scale(1.1);
+  background: #FFFFFF;
+  border: none;
+  box-shadow: 0px 4px 50px -11px #043873;
+}
+#block .block--left h1 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #212529;
+  padding: 0 15px;
+}
+#block .block--left h2 {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: -0.02em;
+  color: #212529;
+  padding: 0 15px;
+  margin: 15px 0 15px;
+}
+#block .block--left h3 {
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: -0.02em;
+  color: #212529;
+  margin: 10px 20px;
+  padding: 10px 0 20px;
+}
+#block .block--left div {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 0 15px;
+}
+#block .block--left div p {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #212529;
+  margin: 15px 15px;
+}
+#block .block--left button {
+  width: 166px;
+  height: 51px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  border: 1px solid #FFE492;
+  transition: 0.4s;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #212529;
+  margin: 0 15px;
+}
+#block .block--left button:hover {
+  background: #37A3FF;
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */
