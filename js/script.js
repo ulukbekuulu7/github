@@ -10,9 +10,4 @@ const swiper = new Swiper(".mySwiper", {
     mousewheel: true,
     keyboard: true,
 });
-//
-// const toggleButton = document.querySelector('.toggle-menu');
-// const navBar = document.querySelector('.nav-bar');
-// toggleButton.addEventListener('click', function () {
-//     navBar.classList.toggle('toggle');
-// });
+/* Отсутствие JS'a */
