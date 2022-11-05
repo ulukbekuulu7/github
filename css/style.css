@@ -8,7 +8,7 @@ a {
 }
 
 .container {
-  width: 1140px;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -165,7 +165,7 @@ a {
 }
 #header .header--btn button {
   margin: 0 10px;
-  width: 200px;
+  width: 150px;
   height: 40px;
   background: #4F9CF9;
   border-radius: 8px;
@@ -173,7 +173,7 @@ a {
   transition: 0.4s;
   cursor: pointer;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 13px;
   letter-spacing: -0.02em;
   color: #FFFFFF;
 }
@@ -372,7 +372,7 @@ a {
   line-height: 30px;
   letter-spacing: -0.02em;
   color: #212529;
-  padding: 20px 0;
+  padding: 10px 40px 40px 0;
 }
 #title .title--work button {
   width: 186px;
@@ -805,113 +805,9 @@ a {
   color: #37A3FF;
   border: 2px solid #37A3FF;
 }
-#data .data--block {
-  border-radius: 50%;
-  box-sizing: border-box;
-  position: relative;
-  width: 400px;
-  height: 280px;
-  border: 2px dashed #37A3FF;
-}
-#data .data--block__img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  left: 40px;
-  top: -5px;
-  background: #FFFFFF;
-  box-shadow: 0px 4px 50px -11px rgb(0, 0, 0);
-  border-radius: 10px;
-}
-#data .data--block__img img {
-  position: absolute;
-}
-#data .data--block__bg {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  left: 300px;
-  top: -5px;
-  background: #FFFFFF;
-  box-shadow: 0px 4px 50px -11px rgb(0, 0, 0);
-  border-radius: 10px;
-}
-#data .data--block__top {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  left: -10px;
-  top: 150px;
-  background: #FFFFFF;
-  box-shadow: 0px 4px 50px -11px rgb(0, 0, 0);
-  border-radius: 10px;
-}
-#data .data--block__lol {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  left: 170px;
-  top: 150px;
-  background: #FFFFFF;
-  box-shadow: 0px 4px 50px -11px rgb(0, 0, 0);
-  border-radius: 10px;
-}
-#data .data--block__bom {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  left: 360px;
-  top: 150px;
-  background: #FFFFFF;
-  box-shadow: 0 4px 50px -11px rgb(0, 0, 0);
-  border-radius: 10px;
-}
-#data .data--block__one {
-  position: absolute;
-  width: 130px;
-  left: 48px;
-  top: 80px;
-  border: 3px dashed #A7CEFC;
-  transform: rotate(54.34deg);
-}
-#data .data--block__two {
-  position: absolute;
-  width: 375px;
-  left: 8px;
-  top: 180px;
-  border: 3px dashed #A7CEFC;
-}
-#data .data--block__three {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  left: 150px;
-  top: 135px;
-  border: 3px dashed #A7CEFC;
-  border-radius: 10px;
-}
-#data .data--block__four {
-  position: absolute;
-  width: 123px;
-  left: 230px;
-  top: 82px;
-  border: 3px dashed #A7CEFC;
-  transform: rotate(128.36deg);
+#data .data--block div img {
+  width: 500px;
+  height: 300px;
 }
 
 #sponsors .sponsors h1 {
@@ -937,7 +833,7 @@ a {
 
 #green {
   width: 100%;
-  height: 500px;
+  height: 560px;
   background: #043873;
   position: relative;
 }
@@ -948,30 +844,6 @@ a {
 }
 #green .green--block {
   padding: 30px 0;
-}
-#green .green--block__top {
-  position: absolute;
-  left: 145px;
-  top: -160px;
-}
-#green .green--block__top img {
-  border-radius: 50%;
-}
-#green .green--block__wor {
-  position: absolute;
-  left: 235px;
-  top: -35px;
-}
-#green .green--block__wor img {
-  border-radius: 50%;
-}
-#green .green--block__ice {
-  position: absolute;
-  left: 50px;
-  top: -35px;
-}
-#green .green--block__ice img {
-  border-radius: 50%;
 }
 #green .green--block__go {
   position: absolute;
@@ -989,18 +861,6 @@ a {
 #green .green--block__lamp img {
   border-radius: 50%;
 }
-#green .green--block__pop {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  left: -15px;
-  top: 20px;
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  background: #FFFFFF;
-}
 #green .green--block__mr {
   position: absolute;
   left: -20px;
@@ -1014,7 +874,7 @@ a {
   width: 200px;
   height: 200px;
   left: 30px;
-  top: 160px;
+  top: 240px;
   border: 2px dashed #4F9CF9;
   border-radius: 50%;
 }
@@ -1023,7 +883,7 @@ a {
   width: 200px;
   height: 200px;
   left: 200px;
-  top: -40px;
+  top: 40px;
   border: 2px dashed #4F9CF9;
   border-radius: 50%;
 }
@@ -1032,15 +892,47 @@ a {
   width: 200px;
   height: 200px;
   left: 110px;
-  top: -370px;
+  top: -300px;
   border: 2px dashed #4F9CF9;
   border-radius: 50%;
 }
-#green .green--title h1 {
+#green .green--block__three--top {
   position: absolute;
-  bottom: 180px;
-  width: 798px;
-  height: 261px;
+  left: 60px;
+  top: -35px;
+}
+#green .green--block__three--top img {
+  border-radius: 50%;
+}
+#green .green--block__three--wor {
+  position: absolute;
+  left: 165px;
+  top: 100px;
+}
+#green .green--block__three--wor img {
+  border-radius: 50%;
+}
+#green .green--block__three--pop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 70px;
+  top: 140px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #FFFFFF;
+}
+#green .green--block__three--ice {
+  position: absolute;
+  left: -40px;
+  top: 90px;
+}
+#green .green--block__three--ice img {
+  border-radius: 50%;
+}
+#green .green--title h1 {
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 50px;

@@ -7,13 +7,33 @@
 }
 
 @media (max-width: 1200px) {
-
+  #title {
+    .title--work h1 {
+      font-weight: 700;
+      font-size: 72px;
+      letter-spacing: -0.02em;
+      color: #212529;
+      margin: 0 70px;
+    }
+  }
+  #green {
+    .green--title h1 {
+      font-family: "Inter", sans-serif;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 60px;
+      letter-spacing: -0.02em;
+      color: #FFFFFF;
+      margin: 0 60px;
+    }
+  }
 }
 
 @media (max-width: 1024px) {
 }
 
 @media (max-width: 992px) {
+
 }
 
 @media (max-width: 768px) {
@@ -35,5 +55,5 @@
 }
 
 @media (max-width: 320px) {
-  
+
 }

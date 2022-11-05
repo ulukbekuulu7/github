@@ -1,5 +1,6 @@
 @import "global";
 
+
 #header {
   background: #ffffff;
   width: 100%;
@@ -29,7 +30,7 @@
 
       button {
         margin: 0 10px;
-        width: 200px;
+        width: 150px;
         height: 40px;
         background: #4F9CF9;
         border-radius: 8px;
@@ -37,7 +38,7 @@
         transition: .4s;
         cursor: pointer;
         font-weight: 500;
-        font-size: 18px;
+        font-size: 13px;
         letter-spacing: -0.02em;
         color: #FFFFFF;
 
@@ -110,9 +111,7 @@
 
 #title {
   .title {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    @include flex;
     padding: 50px 0;
 
     &--block {
@@ -256,7 +255,7 @@
         line-height: 30px;
         letter-spacing: -0.02em;
         color: #212529;
-        padding: 20px 0;
+        padding:10px 40px 40px 0;
       }
 
       button {
@@ -754,121 +753,11 @@
     }
 
     &--block {
-      border-radius: 50%;
-      box-sizing: border-box;
-      position: relative;
-      width: 400px;
-      height: 280px;
-      border: 2px dashed #37A3FF;
-
-      &__img {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        width: 60px;
-        height: 60px;
-        left: 40px;
-        top: -5px;
-        background: #FFFFFF;
-        box-shadow: 0px 4px 50px -11px rgb(0, 0, 0);
-        border-radius: 10px;
-
+      div {
         img {
-          position: absolute;
+          width: 500px;
+          height: 300px;
         }
-      }
-
-      &__bg {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        width: 60px;
-        height: 60px;
-        left: 300px;
-        top: -5px;
-        background: #FFFFFF;
-        box-shadow: 0px 4px 50px -11px rgb(0, 0, 0);
-        border-radius: 10px;
-      }
-
-      &__top {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        width: 60px;
-        height: 60px;
-        left: -10px;
-        top: 150px;
-        background: #FFFFFF;
-        box-shadow: 0px 4px 50px -11px rgb(0, 0, 0);
-        border-radius: 10px;
-      }
-
-      &__lol {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        width: 60px;
-        height: 60px;
-        left: 170px;
-        top: 150px;
-        background: #FFFFFF;
-        box-shadow: 0px 4px 50px -11px rgb(0, 0, 0);
-        border-radius: 10px;
-      }
-
-      &__bom {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        width: 60px;
-        height: 60px;
-        left: 360px;
-        top: 150px;
-        background: #FFFFFF;
-        box-shadow: 0 4px 50px -11px rgb(0, 0, 0);
-        border-radius: 10px;
-      }
-
-      &__one {
-        position: absolute;
-        width: 130px;
-        left: 48px;
-        top: 80px;
-        border: 3px dashed #A7CEFC;
-        transform: rotate(54.34deg);
-      }
-
-      &__two {
-        position: absolute;
-        width: 375px;
-        left: 8px;
-        top: 180px;
-        border: 3px dashed #A7CEFC;
-      }
-
-      &__three {
-        position: absolute;
-        width: 100px;
-        height: 100px;
-        left: 150px;
-        top: 135px;
-        border: 3px dashed #A7CEFC;
-        border-radius: 10px;
-      }
-
-      &__four {
-        position: absolute;
-        width: 123px;
-        left: 230px;
-        top: 82px;
-        border: 3px dashed #A7CEFC;
-        transform: rotate(128.36deg);
       }
     }
   }
@@ -904,7 +793,7 @@
 
 #green {
   width: 100%;
-  height: 500px;
+  height: 560px;
   background: #043873;
   position: relative;
 
@@ -916,36 +805,6 @@
 
     &--block {
       padding: 30px 0;
-
-      &__top {
-        position: absolute;
-        left: 145px;
-        top: -160px;
-
-        img {
-          border-radius: 50%;
-        }
-      }
-
-      &__wor {
-        position: absolute;
-        left: 235px;
-        top: -35px;
-
-        img {
-          border-radius: 50%;
-        }
-      }
-
-      &__ice {
-        position: absolute;
-        left: 50px;
-        top: -35px;
-
-        img {
-          border-radius: 50%;
-        }
-      }
 
       &__go {
         position: absolute;
@@ -967,19 +826,6 @@
         }
       }
 
-      &__pop {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        left: -15px;
-        top: 20px;
-        width: 70px;
-        height: 70px;
-        border-radius: 50%;
-        background: #FFFFFF;
-
-      }
 
       &__mr {
         position: absolute;
@@ -996,7 +842,7 @@
         width: 200px;
         height: 200px;
         left: 30px;
-        top: 160px;
+        top: 240px;
         border: 2px dashed #4F9CF9;
         border-radius: 50%
       }
@@ -1006,7 +852,7 @@
         width: 200px;
         height: 200px;
         left: 200px;
-        top: -40px;
+        top: 40px;
         border: 2px dashed #4F9CF9;
         border-radius: 50%
       }
@@ -1016,18 +862,59 @@
         width: 200px;
         height: 200px;
         left: 110px;
-        top: -370px;
+        top: -300px;
         border: 2px dashed #4F9CF9;
-        border-radius: 50%
+        border-radius: 50%;
+
+        &--top {
+          position: absolute;
+          left: 60px;
+          top: -35px;
+
+          img {
+            border-radius: 50%;
+          }
+        }
+
+        &--wor {
+          position: absolute;
+          left: 165px;
+          top: 100px;
+
+          img {
+            border-radius: 50%;
+          }
+        }
+
+        &--pop {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          left: 70px;
+          top: 140px;
+          width: 70px;
+          height: 70px;
+          border-radius: 50%;
+          background: #FFFFFF;
+
+        }
+
+        &--ice {
+          position: absolute;
+          left: -40px;
+          top: 90px;
+
+          img {
+            border-radius: 50%;
+          }
+        }
       }
+
     }
 
     &--title {
       h1 {
-        position: absolute;
-        bottom: 180px;
-        width: 798px;
-        height: 261px;
         font-family: 'Inter', sans-serif;
         font-weight: 700;
         font-size: 50px;
@@ -1037,6 +924,7 @@
       }
 
       p {
+
         font-weight: 400;
         font-size: 18px;
         line-height: 30px;
