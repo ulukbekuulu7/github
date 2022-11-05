@@ -62,7 +62,6 @@ a {
 .popup h2 {
   margin-top: 0;
   color: #666;
-  font-family: "Trebuchet MS", Tahoma, Arial, sans-serif;
 }
 .popup .close {
   position: absolute;
@@ -104,18 +103,10 @@ a {
   border-right: 20px;
 }
 .popup div button {
-  padding: 15px 50px;
-  background: #4F9CF9;
-  border-radius: 8px;
-  color: white;
-  border: none;
-  cursor: pointer;
-  transition: 0.4s;
-}
-.popup div button:hover {
-  background: transparent;
-  color: #4F9CF9;
-  border: 2px solid #4F9CF9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 30px;
 }
 
 .swiper {
